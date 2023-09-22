@@ -3,11 +3,8 @@
 // Variables
 $primary: rgb(255, 166, 0);
 $secondary: green;
-// Custom.scss
-// Option A: Include all of Bootstrap
 
-// Include any default variable overrides here (though functions won't be available)
-
+// Mixin
 @mixin center-element {
     position: absolute;
     transform: translate(-50%, -50%);
@@ -18,6 +15,7 @@ $secondary: green;
 .test {
     color: $primary;
 
+    // Nesting
     .test-2 {
         color: $secondary;
         @include center-element();
