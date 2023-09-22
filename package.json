@@ -1,0 +1,25 @@
+{
+  "name": "css-boostrap",
+  "version": "1.0.0",
+  "description": "Portfolio with sass css",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch assets/scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-knudsen/css-boostrap.git"
+  },
+  "author": "Mark Knudsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mark-knudsen/css-boostrap/issues"
+  },
+  "homepage": "https://github.com/mark-knudsen/css-boostrap#readme",
+  "devDependencies": {
+    "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
